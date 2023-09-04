@@ -94,7 +94,7 @@ abstract class Application extends Module
     /**
      * @var string the application name.
      */
-    public $name = 'HickUP';
+    public $name = 'My Project';
     /**
      * @var string the charset currently used for the application.
      */
@@ -105,7 +105,7 @@ abstract class Application extends Module
      * for English, while `en-US` stands for English (United States).
      * @see sourceLanguage
      */
-    public $language = 'pt-BR';
+    public $language = 'en';
     /**
      * @var string the language that the application is written in. This mainly refers to
      * the language that the messages and view files are written in.

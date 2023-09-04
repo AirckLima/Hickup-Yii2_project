@@ -98,3 +98,7 @@ a.desc:after {
 .navbar-collapse {
     justify-content: end;
 }
+
+#jogos {
+    position: 100px ;
+}

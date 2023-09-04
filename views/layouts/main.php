@@ -5,7 +5,6 @@
 
 use app\assets\AppAsset;
 use app\widgets\Alert;
-use yii\bootstrap5\Breadcrumbs;
 use yii\bootstrap5\Html;
 use yii\bootstrap5\Nav;
 use yii\bootstrap5\NavBar;
@@ -18,6 +17,7 @@ $this->registerMetaTag(['name' => 'viewport', 'content' => 'width=device-width, 
 $this->registerMetaTag(['name' => 'description', 'content' => $this->params['meta_description'] ?? '']);
 $this->registerMetaTag(['name' => 'keywords', 'content' => $this->params['meta_keywords'] ?? '']);
 $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii::getAlias('@web/favicon.ico')]);
+
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -46,18 +46,15 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 ['label' => 'The Super Xtra', 'url' => '#'],
             ]],
             ['label' => 'Novidades', 'url' => '#'],
-            ['label' => 'Apoie', ]
+            ['label' => 'Apoie', 'url' => '#']
         ]
     ]);
     NavBar::end();
     ?>
-</header>
+</header
 
 <main id="main" class="flex-shrink-0" role="main">
     <div class="container">
-        <?php if (!empty($this->params['breadcrumbs'])): ?>
-            <?= Breadcrumbs::widget(['links' => $this->params['breadcrumbs']]) ?>
-        <?php endif ?>
         <?= Alert::widget() ?>
         <?= $content ?>
     </div>
@@ -66,7 +63,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <footer id="footer" class="mt-auto py-3">
     <div class="container">
         <div class="row text-muted">
-            <div class="col-md-6 text-center text-md-start footer-text">&copy; My Company <?= date('Y') ?></div>
+
         </div>
     </div>
 </footer>
