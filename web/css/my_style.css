@@ -1,3 +1,39 @@
-h1 {
-    font-size: 100px;
+body {
+    background-color: rgb(50, 30, 120);
+}
+
+#home-nav {
+    background-color: rgb(25, 0, 88);
+}
+
+.navbar-brand {
+    font-size: 27px;
+}
+
+nav#home-nav.navbar a {
+    color: rgb(241, 241, 241);
+}
+
+li.nav-item a {
+    font-size: 21px;
+}
+.dropdown-menu {
+    background-color: rgb(60, 40, 100) ;
+}
+
+#jogos {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* .carousel.slide button {
+    position: relative;
+} */
+
+/* .carousel-caption {
+    bottom: 100px;
+} */
+
+footer {
+    background-color: rgb(5, 0, 20);
 }

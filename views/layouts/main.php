@@ -34,16 +34,19 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     NavBar::begin([
         'brandLabel' => Yii::$app->name,
         'brandUrl' => Yii::$app->homeUrl,
-        'options' => ['class' => 'navbar-expand-md navbar-dark bg-dark fixed-top']
+        'options' => [
+            'id' => 'home-nav',
+            'class' => 'navbar-expand-md fixed-top'
+            ]
     ]);
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'Jogos', 'items' => [
-                ['label' => 'Micro Giants', 'url' => '#'],
-                ['label' => 'A Life Inside', 'url' => '#'],
-                ['label' => 'The Super Xtra', 'url' => '#'],
+                ['label' => 'Undertale', 'url' => '#'],
+                ['label' => 'Stardew Valley', 'url' => '#'],
+                ['label' => 'Into the Breach', 'url' => '#'],
             ]],
             ['label' => 'Novidades', 'url' => '#'],
             ['label' => 'Apoie', 'url' => '#']
@@ -54,10 +57,10 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 </header>
 
 <main id="main" role="main">
-    <div class="container">
-        <?= Alert::widget() ?>
-        <?= $content ?>
-    </div>
+
+    <?= Alert::widget() ?>
+    <?= $content ?>
+
 </main>
 
 <footer id="footer" class="mt-auto py-3">
