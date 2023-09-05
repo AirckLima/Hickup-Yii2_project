@@ -51,9 +51,9 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
     ]);
     NavBar::end();
     ?>
-</header
+</header>
 
-<main id="main" class="flex-shrink-0" role="main">
+<main id="main" role="main">
     <div class="container">
         <?= Alert::widget() ?>
         <?= $content ?>
