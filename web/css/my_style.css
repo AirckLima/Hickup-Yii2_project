@@ -33,7 +33,16 @@ li.nav-item a {
 /* .carousel-caption {
     bottom: 100px;
 } */
+.card {
+    width: 270px;
+    background-color: transparent;
+    border: 0px;
+}
 
+.games-show p {
+    margin-top: 20px;
+    color: white;
+}
 footer {
     background-color: rgb(5, 0, 20);
 }

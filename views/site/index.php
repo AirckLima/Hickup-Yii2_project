@@ -40,21 +40,31 @@ $this->title = 'HickUP Studio';
 </div>
 
 <div class="container-fluid ">
+
     <div class="row">
-        <div class="col-4 teste">
-            <img src="https://www.fangamer.com/cdn/shop/files/undertalephysicalgameitemview_360x360.png?v=1691706321" />
-            <img src="https://www.fangamer.com/cdn/shop/files/intothebreachswitchgameitemview_360x360.png?v=1691706385" />
-            <img src="https://www.fangamer.com/cdn/shop/files/hollowknightphysicalgameitemview_360x360.png?v=1691706288" />
-            <img src="https://www.fangamer.com/cdn/shop/files/stardewvalleyphysicalgameitemview_360x360.png?v=1691706310" />
+
+        <div class="col-auto teste">
+            <div class="card">
+                <img src="https://www.fangamer.com/cdn/shop/files/undertalephysicalgameitemview_360x360.png?v=1691706321" />
+            </div>
+            
+            <div class="card">
+                <img src="https://www.fangamer.com/cdn/shop/files/intothebreachswitchgameitemview_360x360.png?v=1691706385" />
+            </div>    
         </div>
-        <div class="col-8">
-            <div class="row">
-                <div class="col-6">
-                    <h2>Nossos jogos <br>Nossas vidas!</h2>
-                </div>
+
+        <div class="col-auto">
+            <div class="card">
+                <img src="https://www.fangamer.com/cdn/shop/files/hollowknightphysicalgameitemview_360x360.png?v=1691706288" />
+            </div> 
+            <div class="card">
+                <img src="https://www.fangamer.com/cdn/shop/files/stardewvalleyphysicalgameitemview_360x360.png?v=1691706310" />
             </div>
         </div>
-
+        
+        <div class="col games-show">
+            <p class="display-3 text-center">Nossos jogos <br>Nossas vidas!</p>
+        </div>
+        
     </div>
-
 </div>

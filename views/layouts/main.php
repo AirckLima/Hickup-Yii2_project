@@ -46,6 +46,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
             ['label' => 'Jogos', 'items' => [
                 ['label' => 'Undertale', 'url' => '#'],
                 ['label' => 'Stardew Valley', 'url' => '#'],
+                ['label' => 'Hollow Knight', 'url' => '#'],
                 ['label' => 'Into the Breach', 'url' => '#'],
             ]],
             ['label' => 'Novidades', 'url' => '#'],
