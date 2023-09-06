@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(50, 30, 120);
 }
@@ -24,6 +25,7 @@ li.nav-item a {
 }
 
 #jogos {
+    padding: 70px 15px 20px;;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -43,6 +45,12 @@ li.nav-item a {
 }
 .card img:hover {
     transform: scale(1.25);
+}
+.games-show {
+    padding-top: 30px;
+}
+h2 {
+    color: rgb(241, 241, 241);
 }
 .games-show p {
     margin-top: 20px;

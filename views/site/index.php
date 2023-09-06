@@ -6,7 +6,7 @@ use yii\bootstrap5\Carousel;
 
 $this->title = 'HickUP Studio';
 ?>
-<div class="container">
+<div class="container games-carousel">
     <?php
 
     echo Carousel::widget(
@@ -39,10 +39,10 @@ $this->title = 'HickUP Studio';
     ?>
 </div>
 
-<div class="container ">
+<div class="container games-show">
 
     <div class="row">
-        <div class="col games-show">
+        <div class="col ">
             <p class="display-3 text-center">Nossos jogos <br>Nossas vidas!</p>
         </div>
     </div>
@@ -73,5 +73,13 @@ $this->title = 'HickUP Studio';
         </div>
 
 
+    </div>
+</div>
+
+<div class="container novidades text-center">
+    <div class="row">
+        <div class="col">
+            <h2>Fique em dia com nosso desenvolvimento!</h2>
+        </div>
     </div>
 </div>
