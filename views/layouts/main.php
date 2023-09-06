@@ -50,7 +50,8 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
                 ['label' => 'Into the Breach', 'url' => '#'],
             ]],
             ['label' => 'Novidades', 'url' => '#'],
-            ['label' => 'Apoie', 'url' => '#']
+            ['label' => 'Apoie', 'url' => '#'],
+            ['label' => 'Sobre', 'url' => '#']
         ]
     ]);
     NavBar::end();

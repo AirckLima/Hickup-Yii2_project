@@ -2,7 +2,7 @@ body {
     background-color: rgb(50, 30, 120);
 }
 .container {
-    max-width: 1500px;
+    max-width: 1400px;
 }
 #home-nav {
     background-color: rgb(25, 0, 88);
@@ -39,11 +39,17 @@ li.nav-item a {
     width: 270px;
     background-color: transparent;
     border: 0px;
+    transition: transform .1s;
 }
-
+.card img:hover {
+    transform: scale(1.25);
+}
 .games-show p {
     margin-top: 20px;
     color: white;
+}
+.card-grid {
+    margin-top: 36px ;
 }
 footer {
     background-color: rgb(5, 0, 20);
