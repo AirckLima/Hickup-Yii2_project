@@ -13,23 +13,23 @@ $this->title = 'HickUP Studio';
         [
             'items' => [
                 [
-                    'content' => '<img src="https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg?t=1579096091"/>',
-                    'caption' => '<h2>Undertale</h2>',
+                    'content' => '<img class="img-fluid" src="https://cdn.akamai.steamstatic.com/steam/apps/391540/header.jpg?t=1579096091"/>',
+                    'caption' => '<p class="display-4"><b>Undertale</b></p>',
                     'captionOptions' => ['class' => '']
                 ],
                 [
-                    'content' => '<img src="https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg?t=1666917466"/>',
-                    'caption' => '<h2>Stardew Valley</h2>',
+                    'content' => '<img class="img-fluid" src="https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg?t=1666917466"/>',
+                    'caption' => '<p class="display-4"><b>Stardew Valley</b></p>',
                     'captionOptions' => ['class' => '']
                 ],
                 [
-                    'content' => '<img src="https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028"/>',
-                    'caption' => '<h2>Hollow Knight</h2>',
+                    'content' => '<img class="img-fluid" src="https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg?t=1667006028"/>',
+                    'caption' => '<p class="display-4"><b>Hollow Knight</b></p>',
                     'captionOptions' => ['class' => '']
                 ],
                 [
-                    'content' => '<img src="https://cdn.akamai.steamstatic.com/steam/apps/590380/header.jpg?t=1658236736"/>',
-                    'caption' => '<h2>Into the Breach</h2>',
+                    'content' => '<img class="img-fluid" src="https://cdn.akamai.steamstatic.com/steam/apps/590380/header.jpg?t=1658236736"/>',
+                    'caption' => '<p class="display-4"><b>Into the Breach</b></p>',
                     'captionOptions' => ['class' => '']
                 ]
             ],
@@ -39,7 +39,7 @@ $this->title = 'HickUP Studio';
     ?>
 </div>
 
-<div class="container-fluid ">
+<div class="container ">
 
     <div class="row">
 

@@ -1,7 +1,9 @@
 body {
     background-color: rgb(50, 30, 120);
 }
-
+.container {
+    max-width: 1500px;
+}
 #home-nav {
     background-color: rgb(25, 0, 88);
 }
