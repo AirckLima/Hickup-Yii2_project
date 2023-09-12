@@ -22,58 +22,61 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => Yii
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>" class="h-100">
+
 <head>
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 </head>
+
 <body class="d-flex flex-column h-100">
-<?php $this->beginBody() ?>
+    <?php $this->beginBody() ?>
 
-<header id="header">
-    <?php
-    NavBar::begin([
-        'brandLabel' => Yii::$app->name,
-        'brandUrl' => Yii::$app->homeUrl,
-        'options' => [
-            'id' => 'home-nav',
-            'class' => 'navbar-expand-md fixed-top'
+    <header id="header">
+        <?php
+        NavBar::begin([
+            'brandLabel' => Yii::$app->name,
+            'brandUrl' => Yii::$app->homeUrl,
+            'options' => [
+                'id' => 'home-nav',
+                'class' => 'navbar-expand-md fixed-top'
             ]
-    ]);
-    echo Nav::widget([
-        'options' => ['class' => 'navbar-nav'],
-        'items' => [
-            ['label' => 'Home', 'url' => ['/site/index']],
-            ['label' => 'Jogos', 'items' => [
-                ['label' => 'Undertale', 'url' => '#'],
-                ['label' => 'Stardew Valley', 'url' => '#'],
-                ['label' => 'Hollow Knight', 'url' => '#'],
-                ['label' => 'Into the Breach', 'url' => '#'],
-            ]],
-            ['label' => 'Novidades', 'url' => '#'],
-            ['label' => 'Apoie', 'url' => '#'],
-            ['label' => 'Sobre', 'url' => '#']
-        ]
-    ]);
-    NavBar::end();
-    ?>
-</header>
+        ]);
+        echo Nav::widget([
+            'options' => ['class' => 'navbar-nav'],
+            'items' => [
+                ['label' => 'Home', 'url' => ['/site/index']],
+                ['label' => 'Jogos', 'items' => [
+                    ['label' => 'Undertale', 'url' => '#'],
+                    ['label' => 'Stardew Valley', 'url' => '#'],
+                    ['label' => 'Hollow Knight', 'url' => '#'],
+                    ['label' => 'Into the Breach', 'url' => '#'],
+                ]],
+                ['label' => 'Novidades', 'url' => '#'],
+                ['label' => 'Apoie', 'url' => '#'],
+                ['label' => 'Sobre', 'url' => '#'],
+            ]
+        ]);
+        NavBar::end();
+        ?>
+    </header>
 
-<main id="main" role="main">
+    <main id="main" role="main">
 
-    <?= Alert::widget() ?>
-    <?= $content ?>
+        <?= Alert::widget() ?>
+        <?= $content ?>
 
-</main>
+    </main>
 
-<footer id="footer" class="mt-auto py-3">
-    <div class="container">
-        <div class="row text-muted">
+    <footer id="footer" class="mt-auto py-3">
+        <div class="container">
+            <div class="row text-muted">
 
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
-<?php $this->endBody() ?>
+    <?php $this->endBody() ?>
 </body>
+
 </html>
 <?php $this->endPage() ?>

@@ -4,7 +4,7 @@
 
 use yii\bootstrap5\Carousel;
 
-$this->title = 'HickUP Studio';
+$this->title = 'Hickup Studio';
 ?>
 <div class="container games-carousel">
     <?php
@@ -39,7 +39,7 @@ $this->title = 'HickUP Studio';
     ?>
 </div>
 
-<div class="container games-show">
+<div class="container games-show bg-negative">
 
     <div class="row">
         <div class="col ">
@@ -76,10 +76,54 @@ $this->title = 'HickUP Studio';
     </div>
 </div>
 
-<div class="container novidades text-center">
+<div class="container novidades text-center bg-positive">
     <div class="row">
-        <div class="col">
+        <div class="col-7">
+            <p>images</p>
+        </div>
+        
+        <div class="col-5">
             <h2>Fique em dia com nosso desenvolvimento!</h2>
+            <button type="button" class="btn btn-primary">Acesse o portal</button>
+        </div>
+    </div>
+</div>
+
+<div class="container apoie text-center bg-negative">
+    <div class="row">
+        <div class="col-7">
+            <p>images</p>
+        </div>
+
+        <div class="col-5">
+            <h2>Apoie nossos projetos</h2>
+            <button type="button" class="btn btn-primary">Apoie</button>
+        </div>
+    </div>
+</div>
+
+<div class="container sobre text-center bg-positive">
+    <div class="row">
+        <div class="col-7">
+            <p>images</p>
+        </div>
+
+        <div class="col-5">
+            <h2>Conheça nossa história</h2>
+            <button type="button" class="btn btn-primary">Sobre</button>
+        </div>
+    </div>
+</div>
+
+<div class="container contato text-center bg-negative">
+    <div class="row">
+        <div class="col-7">
+            <p>images</p>
+        </div>
+
+        <div class="col-5">
+            <h2>Conheça nossa história</h2>
+            <button type="button" class="btn btn-primary">Acesse o portal</button>
         </div>
     </div>
 </div>
